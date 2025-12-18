@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Bash script that dynamically creates **temporary WireGuard clients** on a running WireGuard server. Each client:
+This repository contains a mostly preconfigured Bash script that dynamically creates **temporary WireGuard clients** on a running WireGuard server. Each client:
 
 * Gets a unique `/32` IP address in the `10.2.0.0/16` range
 * Is added live via `wg set` (no interface restart)
